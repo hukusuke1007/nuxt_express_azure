@@ -7,8 +7,7 @@
 const app = require('express')()
 const { Nuxt, Builder } = require('nuxt')
 
-//const host = process.env.HOST || '127.0.0.1'
-const host = 'nuxt-express-test.azurewebsites.net'
+const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
 
 // Import and set Nuxt.js options

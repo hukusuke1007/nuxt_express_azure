@@ -1,6 +1,6 @@
 # nuxt_express_azure
 
-> Nuxt.js project
+> Nuxt.js project desu.
 
 ## Build Setup
 

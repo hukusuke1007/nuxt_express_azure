@@ -4,13 +4,12 @@
 // https://github.com/nuxt/nuxt.js/blob/dev/examples/custom-server/server.js
 // 
 
-const app = require('express')()
+const app = require('express')
 const { Nuxt, Builder } = require('nuxt')
 
 // const host = process.env.HOST || '127.0.0.1'
 // const port = process.env.PORT || 3000
-// const port = process.env.PORT || 1337
-const port = 1337
+const port = process.env.PORT || 1337
 console.log('PORT', port)
 
 // Import and set Nuxt.js options

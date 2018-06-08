@@ -7,11 +7,12 @@
 const app = require('express')()
 const { Nuxt, Builder } = require('nuxt')
 
-const host = process.env.HOST || '127.0.0.1'
-const port = process.env.PORT || 3000
-
-console.log('HOST', process.env.HOST)
-console.log('PORT', process.env.PORT)
+// const host = process.env.HOST || '127.0.0.1'
+// const port = process.env.PORT || 3000
+const host = '127.0.0.1'
+const port = 3000
+console.log('HOST', host)
+console.log('PORT', port)
 
 // Import and set Nuxt.js options
 let config = require('./nuxt.config.js')

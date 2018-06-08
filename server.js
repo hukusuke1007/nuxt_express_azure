@@ -4,7 +4,7 @@
 // https://github.com/nuxt/nuxt.js/blob/dev/examples/custom-server/server.js
 // 
 
-const app = require('express')
+const app = require('express')()
 const { Nuxt, Builder } = require('nuxt')
 
 // const host = process.env.HOST || '127.0.0.1'

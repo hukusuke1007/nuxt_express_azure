@@ -10,6 +10,9 @@ const { Nuxt, Builder } = require('nuxt')
 const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
 
+console.log('HOST', process.env.HOST)
+console.log('PORT', process.env.PORT)
+
 // Import and set Nuxt.js options
 let config = require('./nuxt.config.js')
 config.dev = !(process.env.NODE_ENV === 'production')

@@ -1,4 +1,14 @@
+# loggingEnabled - controls whether stdout and stderr streams from node processes are captured and made available over HTTP
 loggingEnabled: true
 devErrorsEnabled: true
-maxNamedPipeConnectionRetry: 900000
-namedPipeConnectionRetryDelay: 900000
+
+# nodeProcessCountPerApplication - number of node.exe processes that IIS will start per application;
+# setting this value to 0 results in creating one node.exe process per each processor on the machine
+nodeProcessCountPerApplication: 1
+
+# maxNamedPipeConnectionRetry - number of times IIS will retry to establish a named pipe connection with a
+# node process in order to send a new HTTP request
+maxNamedPipeConnectionRetry: 1000
+
+# namedPipeConnectionRetryDelay - delay in milliseconds between connection retries
+namedPipeConnectionRetryDelay: 1000

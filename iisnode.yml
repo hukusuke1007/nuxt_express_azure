@@ -8,7 +8,10 @@ nodeProcessCountPerApplication: 1
 
 # maxNamedPipeConnectionRetry - number of times IIS will retry to establish a named pipe connection with a
 # node process in order to send a new HTTP request
-maxNamedPipeConnectionRetry: 1000
+maxNamedPipeConnectionRetry: 3000
 
 # namedPipeConnectionRetryDelay - delay in milliseconds between connection retries
-namedPipeConnectionRetryDelay: 1000
+namedPipeConnectionRetryDelay: 3000
+
+# debuggingEnabled - controls whether the built-in debugger is available
+debuggingEnabled: true

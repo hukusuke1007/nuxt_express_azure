@@ -11,7 +11,7 @@ nodeProcessCountPerApplication: 1
 maxNamedPipeConnectionRetry: 3000
 
 # namedPipeConnectionRetryDelay - delay in milliseconds between connection retries
-namedPipeConnectionRetryDelay: 3000
+namedPipeConnectionRetryDelay: 5000
 
 # debuggingEnabled - controls whether the built-in debugger is available
 debuggingEnabled: true

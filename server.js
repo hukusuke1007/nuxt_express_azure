@@ -6,7 +6,7 @@
 
 const app = require('express')()
 const { Nuxt, Builder } = require('nuxt')
-let http = require('http')
+// let http = require('http')
 // const host = process.env.HOST || '127.0.0.1'
 // const port = process.env.PORT || 3000
 const port = process.env.PORT || 1337
@@ -29,6 +29,6 @@ app.use(nuxt.render)
 
 // Start express server
 app.listen(port)
-let server = http.createServer(app)
-server.timeout = 15 * 60 * 1000  //タイムアウト追加 15分に延長。
+// let server = http.createServer(app)
+// server.timeout = 15 * 60 * 1000  //タイムアウト追加 15分に延長。
 console.log("Server running at http://localhost", port)

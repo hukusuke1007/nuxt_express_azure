@@ -1,2 +1,4 @@
 loggingEnabled: true
 devErrorsEnabled: true
+maxNamedPipeConnectionRetry: 900000
+namedPipeConnectionRetryDelay: 900000
